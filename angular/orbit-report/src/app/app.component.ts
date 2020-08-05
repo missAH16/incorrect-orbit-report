@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Satellite } from './satellite';
 
 @Component({
@@ -21,6 +21,7 @@ export class AppComponent {
        let fetchedSatellites = data.satellites;
        for (let i = 0; i < fetchedSatellites.length; i++) {
          let satellite = new Satellite(fetchedSatellites[i].name, fetchedSatellites[i].orbitType, fetchedSatellites[i].launchDate, fetchedSatellites[i].type, fetchedSatellites[i].operational);
+        this.sourceList.push(satellite);
         }
     }.bind(this));
  }.bind(this));
