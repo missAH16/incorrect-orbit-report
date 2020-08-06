@@ -5,15 +5,16 @@
 
 .warning {
     background-color: #c02c2c;
+    
 }
 
 table {
-  color: rgb(97, 155, 43);
-  border-radius: 5px;
+  color: rgb(21, 34, 36);
+  border-radius: 15px;
   overflow: hidden;
   margin: 12px 0;
-  min-width: 600px;
-  background: #7dced1;
+  min-width: 800px;
+  background: #a6d5d6;
 }
 
 .header-row {
