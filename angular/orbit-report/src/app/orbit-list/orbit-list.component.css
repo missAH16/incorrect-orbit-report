@@ -4,8 +4,10 @@
 }
 
 .warning {
-    background-color: #c02c2c;
-    
+    background-color: #c02c2c;  
+}
+.stripe {
+    color: rgba(95, 119, 226, 0.698);
 }
 
 table {
@@ -14,7 +16,7 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 800px;
-  background: #a6d5d6;
+  background: #8ffa5d59;
 }
 
 .header-row {
